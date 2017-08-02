@@ -1,0 +1,20 @@
+# Spring properties
+spring:
+  application:
+     name: poc  # Service registers under this name
+#  http:
+#     encoding: # Set the default encoding
+#         charset: UTF-8
+#         enabled: true
+
+
+# Map the error path to error template (for Thymeleaf)
+error:
+  path: /error
+
+# HTTP Server
+server:
+  port: 8080   # HTTP (Tomcat) port
+#  port: 2222
+
+
